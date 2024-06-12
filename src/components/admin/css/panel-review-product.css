@@ -1,0 +1,65 @@
+.table-review {
+}
+
+.table-review__header {
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid #714708;
+}
+
+.table-review__header > .table-review__td {
+  font-weight: 600;
+}
+
+.table-review__td {
+  flex: 2;
+  color: #714708;
+}
+
+.table-review__body {
+}
+
+.table-review__row {
+  padding: 12px 8px;
+  border-bottom: 1px solid #714708;
+}
+
+.table-review__row:last-child {
+  border-bottom: none;
+}
+
+.table-review__row__content {
+  display: flex;
+}
+
+.table-review__customer-info {
+  display: flex;
+  gap: 10px;
+}
+
+.table-review__action-btn {
+  background-color: transparent;
+  border: none;
+  color: #714708;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.table-review__action-btn:hover {
+  background-color: #eee;
+}
+
+.table-review__comment {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+.table-review__comment__input {
+  flex: 1;
+  background-color: #f1efed;
+  resize: none;
+  outline: none;
+  padding: 8px 12px;
+}

@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --base: #644c38;
+  --base-lioght: #F7F1E8;
+  --background: #FFFFFF;
+}
+
+
+.text_brown {
+  color: var(--base);
+}
+
+.border-bottom {
+  color: #644c38;
+}
+
+.dark_brown {
+  background-color: var(--base) !important;
+  border-radius: 25px !important;
+  font-weight: bold !important;
+  height: 45px !important;
+}
+
+.form-control {
+  border-radius: 25px;
+  height: 45px;
+}
+
+.footer {
+  background-color: var(--base-lioght);
+}
+
+.send_mail {
+  border-bottom: 1px solid #D5C7BB;
+}
+
+/* 
+.text-reset i {
+  color: white;
+  padding: 0.8rem;
+  margin: 0 0.1rem;
+  border: 2px solid white;
+  border-radius: 50%;
+} */

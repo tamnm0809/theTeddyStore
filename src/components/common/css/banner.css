@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --base: #644c38;
+}
+
+.wrapper img {
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.article .card {
+  border: none;
+  color: var(--base);
+}
+
+.article .card i {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.slick-next {
+  /* display: none !important; */
+  right: 20px;
+}

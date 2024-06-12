@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --base: #644c38;
+  --price: #e2af52;
+  --hover: #644c38;
+  --background: #ffffff;
+}
+.title-topbear .learn-more span {
+  color: var(--base);
+  font-size: 1.2rem;
+}
+.title-topbear .learn-more i {
+  color: var(--base);
+}
+.product-card {
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  color: var(--base);
+  position: relative;
+  overflow: hidden;
+}
+.product-card .image {
+  max-height: 12.5rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.product-card .card-body .card-title {
+  font-size: 1.2rem;
+}
+.product-card .card-body .price-product .card-text {
+  color: var(--price);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.product-card .card-body .button .btn {
+  border: 1px solid var(--base);
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--base);
+  width: 4rem;
+}
+.product-card .card-body .button .btn:hover {
+  color: var(--background);
+  background-color: var(--base);
+}
+.product-card .card-body .button .btn.selected {
+  color: #ffffff;
+  background-color: #644c38;
+}
+.product-card .card-product-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(204, 181, 155, 0.8); /* Màu mờ #CCB59B */
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: perspective(800px) rotateX(90deg);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.product-card:hover .image .card-product-hover {
+  transform: perspective(800px) rotateX(0deg);
+  opacity: 1;
+}
+.card-product-hover .btn {
+  background-color: var(--background);
+  color: var(--base);
+  border-radius: 50%;
+  border: none;
+  transform: rotateX(90deg);
+  transition: transform 0.3s ease-in-out;
+}
+.card-product-hover .btn:hover {
+  background-color: var(--hover);
+  color: var(--background);
+  transition: 0.2s linear;
+}
+.card-product-hover .btn i {
+  color: var(--base);
+  font-weight: bold;
+}
+.card-product-hover .btn:hover i {
+  color: var(--background);
+  transition: 0.2s linear;
+}
+.product-card:hover .image .card-product-hover .btn {
+  transform: rotateX(0deg);
+}
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  background-color: var(--base);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.slick-prev:hover,
+.slick-next:hover{
+  background-color: var(--base);
+}
+.slick-prev {
+  left: -50px;
+}
+.slick-next {
+  right: -50px;
+}

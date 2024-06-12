@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --base: #644c38;
+  --base-light: #f7f1e8;
+  --background: #ffffff;
+}
+
+.cart h4 {
+  color: var(--base);
+}
+
+.table {
+  border-radius: 30px;
+  background-color: #f8f7f6;
+}
+
+.table tr td {
+  color: var(--base);
+  font-weight: 500;
+}
+
+.table tr:last-child {
+  border-bottom: 1px solid var(--base-light);
+}
+
+.table td .btn {
+  color: var(--base);
+  padding: 0.2rem 0.6rem;
+  margin: 0.5rem;
+  background-color: var(--base-light);
+}
+
+.table td .btn:hover {
+  background-color: #644c38;
+}
+.table td .btn:hover i {
+  color: var(--background);
+}
+
+.table td .btn i {
+  color: var(--base);
+}
+.table td .quantity {
+  width: 3rem;
+  border: none;
+  outline: none;
+  margin: 0.5rem;
+  cursor: default;
+  text-align: center;
+  color: var(--base);
+  
+  padding: 0.2rem 0.6rem;
+  background-color: var(--base-light);
+}
+
+.cart-pay {
+  padding: 1rem;
+  font-weight: 500;
+  color: var(--base);
+  background-color: #f8f7f6;
+  border-radius: 30px;
+}
+
+.cart-pay h5 {
+  color: var(--base);
+}
+
+.cart-pay .btn {
+  width: 100%;
+  margin-top: 1.3rem;
+  border-radius: 40px;
+  font-weight: 500;
+  color: var(--background);
+  background-color: var(--base);
+}
+
+.cart-pay .btn:hover {
+  color: var(--base);
+  border: 1px solid var(--base);
+  background-color: var(--background);
+}

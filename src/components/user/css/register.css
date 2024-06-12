@@ -1,0 +1,29 @@
+.invalid {
+    color: red;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.img {
+    width: 50%;
+    height: 30%;
+}
+
+.form-forgot {
+    width: 80%;
+    margin: auto;
+    padding-top: 32px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.center span {
+    font-size: 14px;
+} 

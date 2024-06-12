@@ -1,0 +1,143 @@
+.bg_brown {
+    background-color: var(--base);
+}
+
+button {
+    color: #8F8F8F;
+    font-weight: 500;
+    background-color: #ffffff;
+    border-radius: 12px !important;
+    border: none;
+    padding: 10px 25px 10px 20px;
+}
+
+.active-tab {
+    background-color: #FFBF5C;
+    color: #ffffff;
+}
+
+.sl_order {
+    background-color: #FFDAA2;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #8F8F8F;
+}
+
+.dropdown {
+    width: 70px;
+    border-color: #000000;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fee3ba;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dropdown-list {
+    width: 100%;
+    border-radius: 4px;
+    background-color: #fee3ba;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+}
+
+.item {
+    padding: 5px;
+
+}
+
+.search-input {
+    border-radius: 20px;
+    border-color: #644c38;
+}
+
+.btn_seach {
+    border-radius: 20px !important;
+    width: 55px !important;
+}
+
+.complete {
+    color: #08B556;
+    font-weight: bold;
+    background-color: #E4F8ED;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.In-process {
+    color: #5585C4;
+    font-weight: bold;
+    background-color: #D4E4F4;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.Cancel {
+    color: #DB403E;
+    font-weight: bold;
+    background-color: #FAD4D5;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.return {
+    color: #F29C19;
+    font-weight: bold;
+    background-color: #FEEDD6;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.delivery {
+    color: #EBD302;
+    font-weight: bold;
+    background-color: #FFFACD;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}

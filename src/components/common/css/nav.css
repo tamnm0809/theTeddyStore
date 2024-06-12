@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --base: #644c38;
+  --base-light: #F3EFED;
+  --base-2: #978B82;
+  --FFF: #fff;
+}
+
+.text_brown {
+  color: var(--base) !important;
+}
+
+.sidebar .text_brown:hover {
+  color: var(--base-2);
+  font-weight: bold;
+}
+
+.btn-nav {
+  border-color: var(--base) !important;
+  border-radius: 10px;
+}
+
+.logo-header {
+  width: 230px;
+}
+
+.header {
+  display: flex;
+}
+
+.header .header-right .search .form-control {
+  color: var(--base);
+  width: 15rem;
+  border-radius: 0.7rem;
+  background-color: var(--base-light);
+}
+
+.header .header-right .search .btn {
+  color: var(--FFF);
+  font-size: 1.1rem;
+  border-radius: 10px;
+  margin: 0 0.5rem 0 0.5rem;
+  background-color: var(--base);
+}
+
+.header .header-right .tool .btn {
+  color: var(--base);
+  font-size: 1.1rem;
+  padding: 0 1rem;
+  border-radius: 10px;
+  margin: 0 0.5rem 0 0.5rem;
+  cursor: pointer;
+}
+
+
+.header .header-right .tool .btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .header-right .tool .btn span {
+  font-size: 1rem;
+}
+
+.header .header-right .tool .btn:hover i {
+  transform: scale(1.3);
+  transition: 0.2s linear;
+  text-shadow: 2px 2px 4px rgba(100, 76, 56, 0.5);
+}
+
+.menu {
+  background-color: var(--base-light);
+}
+
+.menu li .nav-link {
+  color: var(--base) !important;
+  font-size: 1.01rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu li .nav-link:hover {
+  transition: linear 0.1s;
+  transform: scale(1.1);
+  text-shadow: 0px 10px 10px rgb(122, 120, 120);
+}

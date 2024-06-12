@@ -1,0 +1,101 @@
+/* .list-group-item {
+    border: none;
+  }
+  
+  .dropdown-menu {
+    border-radius: 20px;
+  }
+  
+  .sidebar-button:hover {
+    background-color: #644c38;
+    color: white;
+  }
+  
+  .dropdown-item {
+    background-color: #f1efed;
+    border-radius: 20px;
+  }
+   */
+  /* .btn-add-img {
+    background-color: #f1efed;
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 120px;
+  }
+  
+  .input {
+    background-color: #f1efed;
+    border-radius: 6px;
+  }
+  .button-action {
+    font-size: 14px;
+    padding: 6px 15px;
+    border-radius: 10px;
+    background-color: #644c38;
+    color: white;
+  }
+  
+  .input-option {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: #f1efed;
+    border: none;
+  }
+  
+  .text-color{
+    color: #9c681a;
+  }
+  .text-color-sidebar{
+    color: #5c5a54;
+  } */
+  .custom-dropdown {
+    top: unset !important;
+    bottom: 100% !important;
+}
+
+  /* hover: #704606 */
+  /* .hover-list:hover {
+    background-color: #644c38;
+    color: #8f5806;
+  } */
+
+  /* css admin home sidebar ...*/
+
+  .ant-layout .ant-layout-sider-children {
+    min-width: 230px ;
+    max-width: 230px  ;
+}
+.ant-layout .ant-layout-sider-trigger{
+    min-width: 230px ;
+    max-width: 230px  ;
+
+}
+.ant-layout .ant-layout-sider-trigger{
+    background-color: #fff;
+    color: #644C38;
+}
+.ant-layout-sider-children{
+    background-color: #fff;
+}
+.ant-menu-dark{
+    background-color: #fff;
+}
+.ant-menu-item-selected  .ant-menu-item-icon svg {
+    color: #fff;
+}
+.ant-menu-item-icon svg{
+    color: #644C38;
+}
+
+.ant-menu .ant-menu-submenu-arrow{
+    color: #644C38;
+}
+.ant-menu-item .ant-menu-item-active .ant-menu-item-selected{
+    background-color: #644C38;
+    color: #fff;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline{
+    background-color: #fff ;
+}
+  

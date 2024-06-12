@@ -1,0 +1,80 @@
+.ant-carousel {
+  padding: 0;
+}
+
+.ant-carousel img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.chart {
+  background-color: #f5f5f5;
+}
+
+.ant-card {
+  width: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ant-card .ant-card-body {
+  border-radius: 7px;
+}
+
+.ant-card-body {
+  display: flex;
+  color: #644c38;
+  background-color: #f5f5f5;
+}
+
+.icon1 > span {
+  font-size: 24px;
+  color: #ef4f4f; /* Đặt kích thước cho icon */
+}
+
+.icon2 > span {
+  font-size: 24px;
+  color: #209c58; /* Đặt kích thước cho icon */
+}
+
+.icon3 > span {
+  font-size: 24px;
+  color: #db9526; /* Đặt kích thước cho icon */
+}
+
+.icon1 {
+  text-align: center;
+  padding-top: 23px;
+  background-color: #fac6c6;
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  margin-right: 15px; /* Khoảng cách giữa icon và content */
+}
+
+.icon2 {
+  text-align: center;
+  padding-top: 23px;
+  background-color: #d0f4e1;
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  margin-right: 15px; /* Khoảng cách giữa icon và content */
+}
+
+.icon3 {
+  text-align: center;
+  padding-top: 23px;
+  background-color: rgb(247, 223, 186);
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  margin-right: 15px; /* Khoảng cách giữa icon và content */
+}
+
+.table-admin {
+  background-color: #c6baba; /* Màu nền */
+  color: #b14848; /* Màu chữ */
+}

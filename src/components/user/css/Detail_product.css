@@ -1,0 +1,365 @@
+.img-p {
+  width: 100%;
+  height: 365px;
+  margin-top: 20px;
+  border-radius: 13px;
+}
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.images img {
+  width: calc(25% - 5px); /* 25% width for each image with 5px spacing */
+  margin-bottom: 5px;
+  border-radius: 9px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.prev,
+.next {
+  margin-right: 10px;
+}
+
+.content_pro {
+  margin-top: 7px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+.content_pro > h4 {
+  color: #644c38;
+}
+
+.star > i {
+  color: rgb(239, 187, 31);
+}
+
+.star > p {
+  display: inline-block;
+  padding-left: 15px;
+  font-size: x-large;
+  color: #8f8f8f;
+}
+
+.star > h6 {
+  display: inline-block;
+  padding-left: 15px;
+  color: #8f8f8f;
+}
+
+.price > p {
+  display: inline-block;
+  color: #8f8f8f;
+  text-decoration: line-through;
+  margin-right: 15px;
+}
+
+.price > h3 {
+  display: contents;
+  color: #644c38;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+}
+
+.colorr {
+  margin-right: 17px;
+}
+
+.p {
+  display: contents;
+  color: #8f8f8f;
+}
+
+.s {
+  display: contents;
+  color: #8f8f8f;
+}
+
+.size {
+  margin-right: 50px;
+}
+
+.buttonn {
+  width: 90px;
+  border-radius: 6px;
+  margin-left: 7px;
+  padding: 2px;
+  padding-left: 5px;
+  margin-right: 4px;
+  color: #8f8f8f;
+  border-color: #8f8f8f;
+  border: 1px solid;
+  background-color: white;
+}
+
+.buttonn.selected {
+  color: #db9526;
+  border-color: #db9526;
+}
+
+.note > p {
+  color: #8f8f8f;
+  display: contents;
+}
+
+.textt {
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: #8f8f8f;
+  width: 500px;
+  padding-bottom: 70px;
+  padding-top: 4px;
+}
+
+.texttt {
+  margin-left: 60px;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: #8f8f8f;
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 500px;
+  padding-bottom: 70px;
+  padding-top: 4px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center; /* Canh giữa các phần tử theo chiều dọc */
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.quantity > p {
+  display: contents;
+  color: #8f8f8f;
+}
+
+.input-group {
+  width: 22%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.service > button {
+  border-radius: 6px;
+  margin-left: 30px;
+  padding: 2px;
+  padding-left: 5px;
+  margin-right: 4px;
+  color: #8f8f8f;
+  border-color: #8f8f8f;
+  border: 1px solid;
+  color: white;
+  width: 200px;
+  background-color: #db9526;
+  border-color: #db9526;
+}
+
+.service > p {
+  display: contents;
+  color: #8f8f8f;
+}
+
+.price_service {
+  display: flex;
+  align-items: center; /* Canh giữa các phần tử theo chiều dọc */
+  margin-top: 10px;
+}
+
+.price_service > p {
+  color: #8f8f8f;
+  display: contents;
+}
+
+.price_service > h3 {
+  margin-left: 60px;
+  color: #644c38;
+}
+
+.notesv {
+  margin-left: 90px;
+}
+
+.notesv > p {
+  color: #644c38;
+  font-size: larger;
+}
+
+.text {
+  height: 100px;
+  width: 335px;
+}
+
+.notesv > div {
+  /* Canh giữa các phần tử theo chiều dọc */
+  display: flex;
+  align-items: center;
+}
+
+.notesv > div > p > hr {
+  width: 233px;
+  margin-top: 20px;
+}
+
+.cart > button {
+  border-radius: 6px;
+  padding: 2px;
+  padding-left: 5px;
+  margin-right: 9px;
+  margin-top: 20px;
+  color: #8f8f8f;
+  border-color: #8f8f8f;
+  border: 1px solid;
+  background-color: white;
+  width: 250px;
+  color: #db9526;
+  border-color: #db9526;
+}
+
+.cartt {
+  margin-left: 90px;
+}
+
+.nav-tabs {
+  display: flex;
+  align-items: center;
+  /* Căn giữa các tab */
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #db9526;
+  border-color: #db9526;
+}
+
+.facebook-icon {
+  display: inline-block;
+  text-decoration: none; /* Loại bỏ đường viền xung quanh */
+  color: #3b5998; /* Màu của biểu tượng Facebook */
+}
+
+.facebook-icon i {
+  font-size: 24px; /* Kích thước của biểu tượng */
+}
+
+/* Hiệu ứng khi di chuột qua */
+.facebook-icon:hover {
+  color: #2d4373; /* Màu của biểu tượng khi di chuột qua */
+}
+
+.connect {
+  width: 170px;
+  border-radius: 6px;
+  padding: 5px;
+  padding-left: 5px;
+  margin-right: 4px;
+  color: #8f8f8f;
+  border-color: #8f8f8f;
+  border: 1px solid;
+  background-color: white;
+}
+
+.connectt {
+  display: inline-flex;
+}
+
+.zalo-icon {
+  display: inline-block;
+  text-decoration: none; /* Loại bỏ đường viền xung quanh */
+  color: #00a1f1; /* Màu của biểu tượng Zalo */
+}
+
+.zalo-icon i {
+  font-size: 24px; /* Kích thước của biểu tượng */
+}
+
+/* Hiệu ứng khi di chuột qua */
+.zalo-icon:hover {
+  color: #0077c2; /* Màu của biểu tượng khi di chuột qua */
+}
+
+.lable {
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+
+.lable > label {
+  color: #644c38;
+  margin-right: 7px;
+  font-weight: bold;
+}
+
+.lable > div {
+  color: #8f8f8f;
+}
+
+.lablee > p {
+  color: #8f8f8f;
+}
+
+.ant-tabs .ant-tabs-tab {
+  color: #644c38;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.ant-tabs .ant-tabs-tab:hover {
+  color: #644c38;
+  font-weight: bold;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #644c38;
+}
+
+.ant-tabs .ant-tabs-ink-bar {
+  background: #db9526;
+}
+
+.tablee {
+  width: 60%;
+  margin: auto;
+  background-color: #fff !important;
+  border-collapse: collapse; /* Đảm bảo các ô của bảng không có khoảng cách */
+  border: 1px solid #ccc;
+}
+
+td,
+th {
+  border: 1px solid #ccc; /* Đặt đường viền của các ô với màu xám (#ccc) */
+}
+
+th {
+  font-size: larger;
+  color: #644c38;
+}
+
+td > p > i {
+  color: #db9526;
+}
+
+td > p {
+  font-size: large;
+  color: #8f8f8f;
+}
+
+.tablee > thead {
+  text-align: center;
+  border-radius: 1px;
+}
+
+.tablee > :not(:last-child) > :last-child > * {
+  border-color: black 1px;
+}

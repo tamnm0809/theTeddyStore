@@ -1,0 +1,73 @@
+:root {
+    --base: #644c38;
+    --base-light: #f7ede9;
+    --base-2: #978B82;
+    --FFF: #fff;
+}
+
+.text_brown {
+    color: var(--base) !important;
+}
+
+.bg_brown {
+    background-color: var(--base);
+}
+
+.modalBackground { 
+    background-color: rgba(0, 0, 0, 0.35);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.modalContainer {
+    width: 750px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #644C38;
+}
+
+
+
+.modalContainer .footer_model {  
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modalContainer .footer_model button { 
+    width: 150px;
+    height: 45px; 
+    border: none;
+    font-weight: bold;
+    background-color: #644C38;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* .image {
+    width: 100px;
+    height: 115px;
+} */

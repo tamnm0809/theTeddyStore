@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --base: #644c38;
+}
+.wrapper-form {
+  border: 1px solid rgb(209, 208, 208);
+  border-radius: 15px;
+}
+.wrapper-form form {
+  width: 50%;
+  margin: 0 auto;
+}
+.wrapper-form h3 {
+  color: var(--base);
+  font-size: 1.5rem;
+}
+.wrapper-form .mb-4 .form-label {
+  color: var(--base);
+  font-weight: 500;
+}
+.wrapper-form .mb-4 .form-control {
+  border-radius: 10px;
+  outline: none;
+}
+.wrapper-form .mb-4 .forgot-pass {
+  color: var(--base);
+  font-weight: 500;
+  text-decoration: none;
+}
+.wrapper-form .mb-4 .btn-submit {
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px;
+  background-color: var(--base);
+}
+.button-login .mb-3 span {
+  color: var(--base);
+  font-weight: 500;
+}
+.line-login {
+  width: 30%;
+  margin: 0 1rem;
+  display: inline-block;
+  border-bottom: 1px solid var(--base);
+}
+.btn-face i {
+  font-size: 2.3rem;
+}
+.btn-email {
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff8a00, #e52e71);
+}
+.btn-email i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.register{
+     color: var(--base);
+     font-weight: 500;
+     text-decoration: none;
+}
+.register:hover{
+     color: #815632;
+}
